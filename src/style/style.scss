@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+.nav{
+    background: #162a3b;
+    &_box{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &_list{
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      padding: 20px 30px 20px 30px;
+      text-decoration: none;
+      list-style: none;
+    }
+    &_link{
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17.07px;
+      color: #fff;
+      transition: 0.5s;
+    }
+  }
+.nav_logo span {
+    font-family: var(--c700);
+    font-size: 18px;
+    line-height: 20.07px;
+    color: #fff;
+  }
+.nav_link::after{
+      content: "";
+      width: 100%;
+      height: 2px;
+      background-color: #98fb98;
+      display: block;
+      border-radius: 2px;
+      transform: scale(0);
+      transition: 0.5s;
+  }
+.nav_link:hover::after{
+      transform: scale(1);
+  }
+.nav_link:hover {
+    transform: scale(1);
+    color: #98fb98;
+  }
+.nav_logo img{
+   width: 80px;
+   display: block;
+  }
+.intro{
+    background: #213547;
+    &_box{
+      display: flex;
+      align-items: center;
+      gap: 150px;
+    }
+    &_left img{
+      display: block;
+    }
+    &_right{
+      max-width: 500px;
+      width: 100%;
+      padding-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+    }
+    &_title{
+      margin-bottom: 10px;
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 40.14px;
+      color: #fff;
+    }
+    &_text{
+      margin-top: 10px;
+      font-family: "Roboto";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #fff;
+      text-align: justify;
+    }
+  }
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #213547;
+    padding-bottom: 30px;
+    &_title{
+        padding-top: 30px;
+        font-family: "Montserrat";
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 40.14px;
+        color: #fff;
+    }
+    &_text{
+        margin-top: 10px;
+        font-family: "Roboto";
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 30px;
+        line-height: 21px;
+        color: #fff;
+        text-align: justify;
+    }
+    &_box{
+      display: grid;
+      gap: 30px;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      background-color: #fff;
+      font-size: 80px;
+      padding: 30px;  
+    }
+}
+.skills-section {
+  padding: 50px 0;
+  background: #f0f0f0;
+}
+.project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  &_title{
+    padding-top: 30px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40.14px;
+  }
+  &_text{
+    margin-top: 10px;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    line-height: 21px;
+  }
+  &_projects_img{
+    height: 100%;
+    width: 400px;
+  }
+}
+.projects_name{
+  color: #162a3b;
+}
+.projects_list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer{
+    background-color: #162a3b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+    &_title{
+      padding-top: 25px;
+      padding-bottom: 15px;
+      color: #fff;
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 40.14px;
+    }
+  }
+  .contacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    gap: 50px;
+  }
+
+
+  

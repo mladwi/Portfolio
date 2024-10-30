@@ -118,6 +118,9 @@
     .footer{
         padding: 0;
     }
+    .contacts{
+        gap: 30px;
+    }
     .footer_title{
         padding: 15px;
     }
@@ -158,6 +161,9 @@
     }
     .project_title{
         font-size: 28px;
+    }
+    .contacts{
+        gap: 25px;
     }
     .footer_title{
         font-size: 30px;
@@ -240,6 +246,9 @@
     .projects_img{
         height: 170px;
         width:100%;
+    }
+    .contacts{
+        gap: 20px;
     }
     .footer_title{
         font-size: 28px;
@@ -329,6 +338,9 @@
     .projects_img{
         height: 130px;
         width:100%;
+    }
+    .contacts{
+        gap: 15px;
     }
     .footer_title{
         font-size: 24px;
@@ -431,10 +443,59 @@
         height: 100px;
         width:100%;
     }
+    .contacts{
+        gap: 10px;
+    }
     .footer_title{
         font-size: 18px;
     }
     .footer_img{
         height: 18px;
+    }
+}
+@media(max-width:300px){
+    .intro{
+        height: 150px;
+    }
+    .intro_right{
+        width: 150px;
+        height: 150px;
+    }
+    .intro_left img{
+        height: 150px;
+    }
+    .intro_title{
+        font-size: 16px;
+    }
+    .intro_text{
+        line-height: 12px;
+    }
+    .skills_box{
+        padding: 10px;
+    }
+    .skills_title{
+        font-size: 16px;
+    }
+    .card_img{
+        height: 40px;
+    }
+    .project_title{
+        font-size: 16px;
+    }
+    .projects_name{
+        font-size: 10px;
+    }
+    .projects_img{
+        height: 80px;
+        width:100%;
+    }
+    .contacts{
+        gap: 5px;
+    }
+    .footer_title{
+        font-size: 16px;
+    }
+    .footer_img{
+        height: 16px;
     }
 }

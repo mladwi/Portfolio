@@ -149,12 +149,14 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 30px;
+  background-color: #fff;
   &_title{
     padding-top: 30px;
     font-family: "Montserrat";
     font-weight: 400;
     font-size: 36px;
     line-height: 40.14px;
+    color: #162a3b;
   }
   &_text{
     margin-top: 10px;
@@ -163,6 +165,7 @@
     font-weight: 400;
     padding-bottom: 30px;
     line-height: 21px;
+    color: #162a3b;
   }
   &_projects_img{
     height: 100%;

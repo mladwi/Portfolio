@@ -1,68 +1,440 @@
-@media (max-width: 1200px) {
-    .nav_list {
-        gap: 20px;
+@media (max-width:1100px){
+    .intro_left img{
+        height: 460px;
+        width: 100%;
     }
-
-    .nav_logo img {
-        width: 70px;
-    }
-
-    .skills_box {
-        grid-template-columns: repeat(2, 1fr);
+    .intro_box{
+        gap: 45px;
     }
 }
-
-@media (max-width: 1000px) {
-    .nav_list {
-        flex-direction: column;
+@media (max-width:1000px){
+    .intro{
+        height: 440px;
     }
-
-    .skills_box {
-        grid-template-columns: 1fr;
+    .intro_left img{
+        height: 400px;
+        width: 100%;
+    }
+    .intro_box{
+        gap: 40px;
+    }
+    .intro_right{
+        margin-top: 20px;
+    }
+    .footer{
+        padding: 0;
     }
 }
-@media (max-width: 800px) {
-    .intro_box {
-        flex-direction: column;
+@media (max-width:900px){
+    .intro{
+        height: 360px;
     }
-
-    .nav {
-        padding: 10px;
+    .intro_right{
+        width: 400px;
+        margin-top: 30px;
+        padding-bottom: 30px;
     }
-}
-@media (max-width: 600px) {
-    .nav_link {
+    .intro_left img{
+        height: 340px;
+        width: 100%;
+    }
+    .intro_box{
+        gap: 30px;
+    }
+    .intro_text{
         font-size: 12px;
     }
-
-    .skills_title {
-        font-size: 28px;
+    .intro_title{
+        font-size: 30px;
     }
-
-    .project_title {
-        font-size: 28px;
+    .skills_box{
+        flex-wrap: wrap;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(3, 2fr);
+        font-size: 60px;
     }
-}
-@media (max-width: 400px) {
-    .nav_box {
-        flex-direction: column;
-        align-items: flex-start;
+    .card_img{
+        height: 180px;
+        width: 100%;
     }
-
-    .skills_box {
-        padding: 15px;
+    .skills_title{
+        font-size: 34px;
     }
-}
-@media (max-width: 200px) {
-    .nav {
-        padding: 5px;
-    }
-
-    .nav_logo span {
+    .skills_text{
         font-size: 14px;
     }
-
-    .skills_title {
+    .footer_title{
+        font-size: 34px;
+        padding: 15px;
+    }
+    .footer{
+        padding: 0;
+    }
+    .footer_img{
+        height: 40px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:800px){
+    .intro{
+        height: 340px;
+    }
+    .intro_right{
+        padding-bottom: 0;
+        width: 330px;
+        margin-top: 0;
+    }
+    .intro_left img{
+        height: 310px;
+        width: 100%;
+    }
+    .intro_text{
+        font-size: 11px;
+    }
+    .intro_title{
+        font-size: 28px;
+    }
+    .card_img{
+        height: 160px;
+        width: 100%;
+    }
+    .skills_title{
+        font-size: 30px;
+        padding-top: 15px;
+    }
+    .skills_text{
+        font-size: 11px;
+        padding-bottom: 15px;
+    }
+    .project_title{
+        font-size: 32px;
+        padding-top: 15px;
+    }
+    .project_text{
+        font-size: 11px;
+        padding-bottom: 15px;
+    }
+    .footer{
+        padding: 0;
+    }
+    .footer_title{
+        padding: 15px;
+    }
+    .footer_img{
+        height: 40px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:700px){
+    .intro{
+        height: 290px;
+    }
+    .intro_box{
+        gap: 20px;
+    }
+    .intro_left img{
+        height: 290px;
+    }
+    .intro_right{
+        height: 290px;
+        width: 300px;
+        padding: 0;
+        margin-top: 0;
+    }
+    .intro_title{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .intro_text{
+        width: 100%;
+    }
+    .card_img{
+        height: 130px;
+    }
+    .skills_title{
+        font-size: 28px;
+    }
+    .project_title{
+        font-size: 28px;
+    }
+    .footer_title{
+        font-size: 30px;
+    }
+    .footer_img{
+        height: 30px;
+    }
+}
+@media(max-width:650px){
+    .intro{
+        height: 270px;
+    }
+    .intro_right{
+        width: 270px;
+        height: 270px;
+    }
+    .intro_left img{
+        height: 270px;
+    }
+    .intro_title{
+        margin-top: 0;
+    }
+    .intro_text{
+        margin: 0;
+        display: -webkit-box;
+        -webkit-box-orient: vertical; 
+        overflow: scroll;             
+        -webkit-line-clamp: (4) !important;
+    }
+    .card_img{
+        height: 100px;
+    }
+    .project_list{
+        height: 120px;
+        width: 100%;
+    }
+    .projects_img{
+        height: 190px;
+        width:100%;
+    }
+    .projects_name{
+        font-size: 18px;
+    }
+    .footer_title{
+        font-size: 28px;
+    }
+    .footer_img{
+        height: 28px;
+    }
+}
+@media(max-width:600px){
+    .nav_logo span{
+        font-size: 16px;
+    }
+    .intro{
+        height: 240px;
+    }
+    .intro_right{
+        width: 240px;
+        height: 240px;
+    }
+    .intro_left img{
+        height: 240px;
+    }
+    .intro_title{
+        font-size: 26px;
+    }
+    .skills_title{
+        font-size: 26px;
+    }
+    .card_img{
+        height: 90px;
+    }
+    .project_title{
+        font-size: 26px;
+    }
+    .projects_name{
+        font-size: 16px;
+    }
+    .projects_img{
+        height: 170px;
+        width:100%;
+    }
+    .footer_title{
+        font-size: 28px;
+    }
+    .footer_img{
+        height: 26px;
+    }
+}
+@media(max-width:550px){
+    .intro{
+        height: 220px;
+    }
+    .intro_right{
+        width: 220px;
+        height: 220px;
+    }
+    .intro_left img{
+        height: 220px;
+    }
+    .intro_title{
+        font-size: 24px;
+    }
+    .intro_text{
+        line-height: 16px;
+    }
+    .skills_title{
+        font-size: 24px;
+    }
+    .card_img{
+        height: 80px;
+    }
+    .project_title{
+        font-size: 24px;
+    }
+    .projects_img{
+        height: 150px;
+        width:100%;
+    }
+    .footer_title{
+        font-size: 26px;
+    }
+    .footer_img{
+        height: 24px;
+    }
+}
+@media(max-width:500px){
+    .nav_link{
+        font-size: 14px;
+    }
+    .nav_logo span{
+        font-size: 16px;
+    }
+    .intro{
+        height: 200px;
+    }
+    .intro_box{
+        gap: 10px;
+    }
+    .intro_right{
+        width: 200px;
+        height: 200px;
+    }
+    .intro_left img{
+        height: 200px;
+    }
+    .intro_title{
+        font-size: 22px;
+        padding: 0;
+    }
+    .intro_text{
+        line-height: 14px;
+    }
+    .skills_title{
+        font-size: 22px;
+        padding: 0;
+    }
+    .card_img{
+        height: 70px;
+    }
+    .project_title{
+        font-size: 22px;
+        padding: 0;
+    }
+    .projects_name{
+        font-size: 14px;
+    }
+    .projects_img{
+        height: 130px;
+        width:100%;
+    }
+    .footer_title{
+        font-size: 24px;
+        padding: 0;
+    }
+    .footer_img{
+        height: 22px;
+    }
+}
+@media(max-width:450px){
+    .nav_link{
+        font-size: 12px;
+    }
+    .intro{
+        height: 180px;
+    }
+    .intro_right{
+        width: 180px;
+        height: 180px;
+    }
+    .intro_left img{
+        height: 180px;
+    }
+    .intro_title{
         font-size: 20px;
+    }
+    .intro_text{
+        line-height: 12px;
+    }
+    .skills_title{
+        font-size: 20px;
+    }
+    .card_img{
+        height: 60px;
+    }
+    .project_title{
+        font-size: 20px;
+    }
+    .projects_name{
+        font-size: 12px;
+    }
+    .projects_img{
+        height: 110px;
+        width:100%;
+    }
+    .footer_title{
+        font-size: 20px;
+    }
+    .footer_img{
+        height: 20px;
+    }
+}
+@media(max-width:400px){
+    .nav_link{
+        font-size: 10px;
+    }
+    .nav_logo span{
+        font-size: 12px;
+    }
+    .intro{
+        height: 170px;
+    }
+    .intro_right{
+        width: 170px;
+        height: 170px;
+    }
+    .intro_left img{
+        height: 170px;
+    }
+    .intro_title{
+        font-size: 18px;
+    }
+    .intro_text{
+        line-height: 12px;
+    }
+    .skills_box{
+        padding: 15px;
+    }
+    .skills_title{
+        font-size: 18px;
+    }
+    .skills_text{
+        padding: 0;
+        margin: 0;
+    }
+    .card_img{
+        height: 50px;
+    }
+    .project_title{
+        font-size: 18px;
+    }
+    .project_text{
+        padding: 0;
+        margin: 0;
+    }
+    .projects_name{
+        font-size: 12px;
+    }
+    .projects_img{
+        height: 100px;
+        width:100%;
+    }
+    .footer_title{
+        font-size: 18px;
+    }
+    .footer_img{
+        height: 18px;
     }
 }

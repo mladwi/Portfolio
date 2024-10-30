@@ -38,6 +38,7 @@
     font-size: 18px;
     line-height: 20.07px;
     color: #fff;
+    margin-left: 20px;
   }
 .nav_link::after{
       content: "";
@@ -61,18 +62,19 @@
    display: block;
   }
 .intro{
-    background: #213547;
+    background-color: #213547;
+    height: 500px;
     &_box{
       display: flex;
       align-items: center;
-      gap: 150px;
+      gap: 50px;
     }
     &_left img{
       display: block;
     }
     &_right{
-      max-width: 500px;
-      width: 100%;
+      height: 250px;
+      width: 500px;
       padding-bottom: 50px;
       display: flex;
       flex-direction: column;
@@ -99,7 +101,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 250px;
+}
+.card_img{
+  color: #fff;
 }
 .skills{
     display: flex;
@@ -137,7 +141,6 @@
     }
 }
 .skills-section {
-  padding: 50px 0;
   background: #f0f0f0;
 }
 .project{
@@ -164,6 +167,9 @@
   &_projects_img{
     height: 100%;
     width: 400px;
+  }
+  .projects_list span{
+    width: 200px;
   }
 }
 .projects_name{

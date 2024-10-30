@@ -3,8 +3,8 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
-      <nav className="nav">
       <div className="container">
+              <nav className="nav">
         <div className="nav_box">
           <a href="/" className="nav_logo">
             <img src="" alt="" />
@@ -22,8 +22,8 @@ const Navbar = () => {
               </Link>
           </ul>
         </div>
+        </nav>
       </div>
-    </nav>
   )
 }
 

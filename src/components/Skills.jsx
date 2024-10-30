@@ -1,25 +1,26 @@
 import React from 'react'
-import { TfiHtml5 } from "react-icons/tfi";
-import { FaCss3 } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
-import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
-import { SiReactquery } from "react-icons/si";
-
+import html from "../assets/images/html.png";
+import css from "../assets/images/css.png";
+import js from "../assets/images/js.png";
+import react from "../assets/images/react.png";
+import redux from "../assets/images/redux.png";
+import reactquery from "../assets/images/reactquery.png";
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="container">
+      <div className="skills">
         <h1 className="skills_title">Skills</h1>
         <p className="skills_text">In the period of studing I have experienced and learned the followings</p>
         <div className="skills_box">
-            <div className="card card_1"><TfiHtml5 /></div>
-            <div className="card card_2"><FaCss3 /></div>
-            <div className="card card_3"><IoLogoJavascript /></div>
-            <div className="card card_4"><FaReact /></div>
-            <div className="card card_5"><SiRedux /></div>
-            <div className="card card_6"><SiReactquery /></div>
+            <div className="card card_1"><img className='card_img' src={html} alt="" /></div>
+            <div className="card card_2"><img className='card_img' src={css} alt="" /></div>
+            <div className="card card_3"><img className='card_img' src={js} alt="" width={'225'} height={'225'} /></div>
+            <div className="card card_4"><img className='card_img' src={react} alt="" width={'225'} height={'225'} /></div>
+            <div className="card card_5"><img className='card_img' src={redux} alt="" width={'225'} height={'225'} /></div>
+            <div className="card card_6"><img className='card_img' src={reactquery} alt="" width={'225'} height={'225'} /></div>
         </div>
+      </div>
     </div>
   )
 }

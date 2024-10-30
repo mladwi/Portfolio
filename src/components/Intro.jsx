@@ -3,6 +3,7 @@ import Logo from "../assets/images/Logo.png";
 
 const Intro = () => {
   return (
+    <div className="container">
     <div className="intro">
       <div className="intro_box">
         <div className="intro_left">
@@ -18,6 +19,7 @@ const Intro = () => {
           </p>
         </div>
       </div>
+     </div>
     </div>
   );
 };

@@ -413,8 +413,13 @@
     .intro_title{
         font-size: 18px;
     }
+    .intro_box{
+        gap: 5px;
+    }
     .intro_text{
+        width: 140px;
         line-height: 12px;
+        font-size: 10px;
     }
     .skills_box{
         padding: 15px;
@@ -423,11 +428,17 @@
         font-size: 18px;
     }
     .skills_text{
+        line-height: 12px;
+        width: 200px;
+        margin-bottom: 8px;
         padding: 0;
-        margin: 0;
+        margin: 0 0 8px 0;
     }
     .card_img{
         height: 50px;
+    }
+    .project{
+        padding-bottom: 10px;
     }
     .project_title{
         font-size: 18px;
@@ -443,6 +454,9 @@
         height: 100px;
         width:100%;
     }
+    .projects_list{
+        gap: 10px;
+    }
     .contacts{
         gap: 10px;
     }
@@ -453,7 +467,7 @@
         height: 18px;
     }
 }
-@media(max-width:300px){
+@media(max-width:350px){
     .intro{
         height: 150px;
     }
@@ -464,23 +478,55 @@
     .intro_left img{
         height: 150px;
     }
+    .intro_text{
+        width: 130px;
+        font-size: 10px;
+    }
+    .nav_logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .card_img{
+        height: 35px;
+    }
+    .nav_list{
+        gap: 10px;
+    }
+}
+@media(max-width:300px){
+    .intro{
+        height: 130px;
+    }
+    .intro_right{
+        width: 130px;
+        height: 130px;
+    }
+    .intro_left img{
+        height: 130px;
+    }
     .intro_title{
-        font-size: 16px;
+        font-size: 14px;
     }
     .intro_text{
         line-height: 12px;
+        width: 100px;
+    }
+    .skills{
+        padding: 5px;
     }
     .skills_box{
-        padding: 10px;
+        padding: 7px;
     }
     .skills_title{
-        font-size: 16px;
+        font-size: 14px;
     }
     .card_img{
-        height: 40px;
+        height: 30px;
     }
     .project_title{
-        font-size: 16px;
+        font-size: 14px;
     }
     .projects_name{
         font-size: 10px;
@@ -493,9 +539,9 @@
         gap: 5px;
     }
     .footer_title{
-        font-size: 16px;
+        font-size: 14px;
     }
     .footer_img{
-        height: 16px;
+        height: 14px;
     }
 }
